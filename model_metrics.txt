@@ -1,0 +1,23 @@
+Base Model Metrics(No Threshold , trained with top 77 Features)
+Accuracy: 75.63% 
+Precision: 59.45% 
+Recall: 62.14% 
+F1-Score: 60.76%
+ROC-AUC: 71.83%
+
+
+Hyperparameter Tuning approach 1 (using RandomisedSearchCv trained on top N Features, with Threshold included)
+Best Threshold: 0.496464646054329
+Accuracy: 73.61%
+Precision: 55.39%
+Recall: 69.68%
+F1-Score: 61.72%
+ROC-AUC: 80.75%
+
+
+Hyperparameter Tuning approach 2 (Using Gridsearch with 3-individual level model fine-tuning,trained on top 60 Features)
+Accuracy: 72.91%
+Precision: 54.30%
+Recall: 71.16%
+F1-Score: 61.60%
+ROC-AUC: 80.47%
